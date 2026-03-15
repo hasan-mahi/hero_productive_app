@@ -1,0 +1,182 @@
+[
+  {
+    "image": "../src/assets/demo-app (1).webp",
+    "title": "CamFind",
+    "companyName": "CloudSight Inc.",
+    "id": 1,
+    "description": "Visual search app that identifies objects from your camera in real-time using AI.",
+    "size": "126 MB",
+    "reviews": "18.2 K",
+    "ratingAvg": 3.8,
+    "downloads": "42 M",
+    "ratings": [
+      { "name": "1 star", "count": "5.8 K" },
+      { "name": "2 star", "count": "2.1 K" },
+      { "name": "3 star", "count": "3.3 K" },
+      { "name": "4 star", "count": "5.8 K" },
+      { "name": "5 star", "count": "12 K" }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (2).webp",
+    "title": "Picsart",
+    "companyName": "PicsArt, Inc.",
+    "id": 2,
+    "description": "All-in-one photo and video editor with AI tools and creative templates.",
+    "size": "95 MB",
+    "reviews": "12.2 M",
+    "ratingAvg": 4.2,
+    "downloads": "1 B",
+    "ratings": [
+      { "name": "1 star", "count": "240 K" },
+      { "name": "2 star", "count": "180 K" },
+      { "name": "3 star", "count": "620 K" },
+      { "name": "4 star", "count": "4.5 M" },
+      { "name": "5 star", "count": "7.2 M" }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (3).webp",
+    "title": "Unsplash",
+    "companyName": "Unsplash Inc.",
+    "id": 3,
+    "description": "Explore and download millions of beautiful high-resolution photos.",
+    "size": "24 MB",
+    "reviews": "12 K",
+    "ratingAvg": 4.9,
+    "downloads": "5 M",
+    "ratings": [
+      { "name": "1 star", "count": "100" },
+      { "name": "2 star", "count": "50" },
+      { "name": "3 star", "count": "30" },
+      { "name": "4 star", "count": "800" },
+      { "name": "5 star", "count": "10.52 K" }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (4).webp",
+    "title": "Pictoword",
+    "companyName": "Kooapps",
+    "id": 4,
+    "description": "Fun word puzzle game using pictures you combine to form words.",
+    "size": "50 MB",
+    "reviews": "450 K",
+    "ratingAvg": 4.1,
+    "downloads": "20 M",
+    "ratings": [
+      { "name": "1 star", "count": "35 K" },
+      { "name": "2 star", "count": "21 K" },
+      { "name": "3 star", "count": "58 K" },
+      { "name": "4 star", "count": "140 K" },
+      { "name": "5 star", "count": "196 K" }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (5).webp",
+    "title": "Todoist",
+    "companyName": "Doist Ltd.",
+    "id": 5,
+    "description": "Powerful task manager app for organizing your day efficiently.",
+    "size": "41 MB",
+    "reviews": "850 K",
+    "ratingAvg": 4.6,
+    "downloads": "300 M",
+    "ratings": [
+      { "name": "1 star", "count": "18 K" },
+      { "name": "2 star", "count": "12 K" },
+      { "name": "3 star", "count": "40 K" },
+      { "name": "4 star", "count": "210 K" },
+      { "name": "5 star", "count": "588 K" }
+    ]
+  },
+  {
+    "image": "../src/assets/demo-app (6).webp",
+    "title": "Duolingo",
+    "companyName": "Duolingo, Inc.",
+    "id": 6,
+    "description": "Language learning app with gamified lessons to make learning fun.",
+    "size": "80 MB",
+    "reviews": "22 M",
+    "ratingAvg": 4.7,
+    "downloads": "500 M",
+    "ratings": [
+      { "name": "1 star", "count": "500 K" },
+      { "name": "2 star", "count": "320 K" },
+      { "name": "3 star", "count": "890 K" },
+      { "name": "4 star", "count": "5.6 M" },
+      { "name": "5 star", "count": "15.3 M" }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 7,
+    "description": "Video conferencing app for meetings, webinars, and virtual connections.",
+    "size": "110 MB",
+    "reviews": "45 M",
+    "ratingAvg": 4.3,
+    "downloads": "2 B",
+    "ratings": [
+      { "name": "1 star", "count": "1.2 M" },
+      { "name": "2 star", "count": "800 K" },
+      { "name": "3 star", "count": "3 M" },
+      { "name": "4 star", "count": "13 M" },
+      { "name": "5 star", "count": "27 M" }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "id": 8,
+    "description": "Music streaming service offering millions of songs and podcasts.",
+    "size": "98 MB",
+    "reviews": "68 M",
+    "ratingAvg": 4.5,
+    "downloads": "2.5 B",
+    "ratings": [
+      { "name": "1 star", "count": "2.2 M" },
+      { "name": "2 star", "count": "1.2 M" },
+      { "name": "3 star", "count": "4.8 M" },
+      { "name": "4 star", "count": "16 M" },
+      { "name": "5 star", "count": "44.2 M" }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 9,
+    "description": "Graphic design app with templates for social media, marketing, and more.",
+    "size": "67 MB",
+    "reviews": "10.5 M",
+    "ratingAvg": 4.8,
+    "downloads": "600 M",
+    "ratings": [
+      { "name": "1 star", "count": "90 K" },
+      { "name": "2 star", "count": "65 K" },
+      { "name": "3 star", "count": "210 K" },
+      { "name": "4 star", "count": "3.1 M" },
+      { "name": "5 star", "count": "7.2 M" }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1581090468314-0bb8c0a08f1f",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 10,
+    "description": "Team communication platform that brings messaging and collaboration together.",
+    "size": "76 MB",
+    "reviews": "12.5 M",
+    "ratingAvg": 4.4,
+    "downloads": "500 M",
+    "ratings": [
+      { "name": "1 star", "count": "180 K" },
+      { "name": "2 star", "count": "120 K" },
+      { "name": "3 star", "count": "450 K" },
+      { "name": "4 star", "count": "3.5 M" },
+      { "name": "5 star", "count": "7.7 M" }
+    ]
+  }
+]
