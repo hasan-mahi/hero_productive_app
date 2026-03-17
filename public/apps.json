@@ -6,15 +6,15 @@
     "id": 1,
     "description": "Visual search app that identifies objects from your camera in real-time using AI.",
     "size": "126 MB",
-    "reviews": "18.2 K",
+    "reviews": "18.2K",
     "ratingAvg": 3.8,
-    "downloads": "42 M",
+    "downloads": "42M",
     "ratings": [
-      { "name": "1 star", "count": "5.8 K" },
-      { "name": "2 star", "count": "2.1 K" },
-      { "name": "3 star", "count": "3.3 K" },
-      { "name": "4 star", "count": "5.8 K" },
-      { "name": "5 star", "count": "12 K" }
+      { "name": "1 star", "count": "5800" },
+      { "name": "2 star", "count": "2100" },
+      { "name": "3 star", "count": "3300" },
+      { "name": "4 star", "count": "5800" },
+      { "name": "5 star", "count": "12000" }
     ]
   },
   {
@@ -24,15 +24,15 @@
     "id": 2,
     "description": "All-in-one photo and video editor with AI tools and creative templates.",
     "size": "95 MB",
-    "reviews": "12.2 M",
+    "reviews": "12.2M",
     "ratingAvg": 4.2,
-    "downloads": "1 B",
+    "downloads": "1B",
     "ratings": [
-      { "name": "1 star", "count": "240 K" },
-      { "name": "2 star", "count": "180 K" },
-      { "name": "3 star", "count": "620 K" },
-      { "name": "4 star", "count": "4.5 M" },
-      { "name": "5 star", "count": "7.2 M" }
+      { "name": "1 star", "count": "240000" },
+      { "name": "2 star", "count": "180000" },
+      { "name": "3 star", "count": "620000" },
+      { "name": "4 star", "count": "4500000" },
+      { "name": "5 star", "count": "7200000" }
     ]
   },
   {
@@ -40,17 +40,17 @@
     "title": "Unsplash",
     "companyName": "Unsplash Inc.",
     "id": 3,
-    "description": "Explore and download millions of beautiful high-resolution photos.",
+    "description": "Explore and downloadMillions of beautiful high-resolution photos.",
     "size": "24 MB",
-    "reviews": "12 K",
+    "reviews": "12K",
     "ratingAvg": 4.9,
-    "downloads": "5 M",
+    "downloads": "5M",
     "ratings": [
       { "name": "1 star", "count": "100" },
       { "name": "2 star", "count": "50" },
       { "name": "3 star", "count": "30" },
       { "name": "4 star", "count": "800" },
-      { "name": "5 star", "count": "10.52 K" }
+      { "name": "5 star", "count": "10520" }
     ]
   },
   {
@@ -60,15 +60,15 @@
     "id": 4,
     "description": "Fun word puzzle game using pictures you combine to form words.",
     "size": "50 MB",
-    "reviews": "450 K",
+    "reviews": "450K",
     "ratingAvg": 4.1,
-    "downloads": "20 M",
+    "downloads": "20M",
     "ratings": [
-      { "name": "1 star", "count": "35 K" },
-      { "name": "2 star", "count": "21 K" },
-      { "name": "3 star", "count": "58 K" },
-      { "name": "4 star", "count": "140 K" },
-      { "name": "5 star", "count": "196 K" }
+      { "name": "1 star", "count": "35000" },
+      { "name": "2 star", "count": "21000" },
+      { "name": "3 star", "count": "58000" },
+      { "name": "4 star", "count": "140000" },
+      { "name": "5 star", "count": "196000" }
     ]
   },
   {
@@ -76,17 +76,17 @@
     "title": "Todoist",
     "companyName": "Doist Ltd.",
     "id": 5,
-    "description": "Powerful task manager app for organizing your day efficiently.",
+    "description": "Powerful taskManager app for organizing your day efficiently.",
     "size": "41 MB",
-    "reviews": "850 K",
+    "reviews": "850K",
     "ratingAvg": 4.6,
-    "downloads": "300 M",
+    "downloads": "300M",
     "ratings": [
-      { "name": "1 star", "count": "18 K" },
-      { "name": "2 star", "count": "12 K" },
-      { "name": "3 star", "count": "40 K" },
-      { "name": "4 star", "count": "210 K" },
-      { "name": "5 star", "count": "588 K" }
+      { "name": "1 star", "count": "18000" },
+      { "name": "2 star", "count": "12000" },
+      { "name": "3 star", "count": "40000" },
+      { "name": "4 star", "count": "210000" },
+      { "name": "5 star", "count": "588000" }
     ]
   },
   {
@@ -94,17 +94,17 @@
     "title": "Duolingo",
     "companyName": "Duolingo, Inc.",
     "id": 6,
-    "description": "Language learning app with gamified lessons to make learning fun.",
+    "description": "Language learning app with gamified lessons toMake learning fun.",
     "size": "80 MB",
-    "reviews": "22 M",
+    "reviews": "22M",
     "ratingAvg": 4.7,
-    "downloads": "500 M",
+    "downloads": "500M",
     "ratings": [
-      { "name": "1 star", "count": "500 K" },
-      { "name": "2 star", "count": "320 K" },
-      { "name": "3 star", "count": "890 K" },
-      { "name": "4 star", "count": "5.6 M" },
-      { "name": "5 star", "count": "15.3 M" }
+      { "name": "1 star", "count": "500000" },
+      { "name": "2 star", "count": "320000" },
+      { "name": "3 star", "count": "890000" },
+      { "name": "4 star", "count": "5600000" },
+      { "name": "5 star", "count": "15300000" }
     ]
   },
   {
@@ -112,17 +112,17 @@
     "title": "Zoom",
     "companyName": "Zoom Video Communications",
     "id": 7,
-    "description": "Video conferencing app for meetings, webinars, and virtual connections.",
+    "description": "Video conferencing app forMeetings, webinars, and virtual connections.",
     "size": "110 MB",
-    "reviews": "45 M",
+    "reviews": "45M",
     "ratingAvg": 4.3,
-    "downloads": "2 B",
+    "downloads": "2B",
     "ratings": [
-      { "name": "1 star", "count": "1.2 M" },
-      { "name": "2 star", "count": "800 K" },
-      { "name": "3 star", "count": "3 M" },
-      { "name": "4 star", "count": "13 M" },
-      { "name": "5 star", "count": "27 M" }
+      { "name": "1 star", "count": "1200000" },
+      { "name": "2 star", "count": "800000" },
+      { "name": "3 star", "count": "3000000" },
+      { "name": "4 star", "count": "13000000" },
+      { "name": "5 star", "count": "27000000" }
     ]
   },
   {
@@ -130,17 +130,17 @@
     "title": "Spotify",
     "companyName": "Spotify Ltd.",
     "id": 8,
-    "description": "Music streaming service offering millions of songs and podcasts.",
+    "description": "Music streaming service offeringMillions of songs and podcasts.",
     "size": "98 MB",
-    "reviews": "68 M",
+    "reviews": "68M",
     "ratingAvg": 4.5,
-    "downloads": "2.5 B",
+    "downloads": "2.5B",
     "ratings": [
-      { "name": "1 star", "count": "2.2 M" },
-      { "name": "2 star", "count": "1.2 M" },
-      { "name": "3 star", "count": "4.8 M" },
-      { "name": "4 star", "count": "16 M" },
-      { "name": "5 star", "count": "44.2 M" }
+      { "name": "1 star", "count": "2200000" },
+      { "name": "2 star", "count": "1200000" },
+      { "name": "3 star", "count": "4800000" },
+      { "name": "4 star", "count": "16000000" },
+      { "name": "5 star", "count": "44200000" }
     ]
   },
   {
@@ -148,17 +148,17 @@
     "title": "Canva",
     "companyName": "Canva Pty Ltd",
     "id": 9,
-    "description": "Graphic design app with templates for social media, marketing, and more.",
+    "description": "Graphic design app with templates for socialMedia,Marketing, andMore.",
     "size": "67 MB",
-    "reviews": "10.5 M",
+    "reviews": "10.5M",
     "ratingAvg": 4.8,
-    "downloads": "600 M",
+    "downloads": "600M",
     "ratings": [
-      { "name": "1 star", "count": "90 K" },
-      { "name": "2 star", "count": "65 K" },
-      { "name": "3 star", "count": "210 K" },
-      { "name": "4 star", "count": "3.1 M" },
-      { "name": "5 star", "count": "7.2 M" }
+      { "name": "1 star", "count": "90000" },
+      { "name": "2 star", "count": "65000" },
+      { "name": "3 star", "count": "210000" },
+      { "name": "4 star", "count": "3100000" },
+      { "name": "5 star", "count": "7200000" }
     ]
   },
   {
@@ -166,17 +166,17 @@
     "title": "Slack",
     "companyName": "Slack Technologies",
     "id": 10,
-    "description": "Team communication platform that brings messaging and collaboration together.",
+    "description": "Team communication platform that bringsMessaging and collaboration together.",
     "size": "76 MB",
-    "reviews": "12.5 M",
+    "reviews": "12.5M",
     "ratingAvg": 4.4,
-    "downloads": "500 M",
+    "downloads": "500M",
     "ratings": [
-      { "name": "1 star", "count": "180 K" },
-      { "name": "2 star", "count": "120 K" },
-      { "name": "3 star", "count": "450 K" },
-      { "name": "4 star", "count": "3.5 M" },
-      { "name": "5 star", "count": "7.7 M" }
+      { "name": "1 star", "count": "180000" },
+      { "name": "2 star", "count": "120000" },
+      { "name": "3 star", "count": "450000" },
+      { "name": "4 star", "count": "3500000" },
+      { "name": "5 star", "count": "7700000" }
     ]
   }
 ]

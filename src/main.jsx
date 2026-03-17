@@ -7,6 +7,7 @@ import HomePage from "./pages/HomePage/HomePage.jsx";
 import AppPage from "./pages/allAppPage/AppPage.jsx";
 import InstalledAppPage from "./pages/installedAppPage/InstalledAppPage.jsx";
 import NotFoundPage from "./pages/notfoundPage/NotFoundPage.jsx";
+import AppDetailsPage from "./pages/appDetailsPage/AppDetailsPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,11 @@ const router = createBrowserRouter([
         path: "apps",
         loader: () => fetch("/apps.json"),
         Component: AppPage,
+      },
+      {
+        path: "apps/:id",
+        loader: () => fetch("/apps.json"),
+        Component: AppDetailsPage,
       },
       {
         path: "installedApps",
