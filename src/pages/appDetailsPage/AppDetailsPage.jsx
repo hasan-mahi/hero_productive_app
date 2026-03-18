@@ -1,15 +1,46 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import downloadImg from "../../assets/icon-downloads.png";
 import ratingImg from "../../assets/icon-ratings.png";
 import reviewImg from "../../assets/icon-review.png";
 import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
+import { addInstalledApps, getInstalledApps } from "../../utils/localstorage";
+import Swal from "sweetalert2";
+import AppNotFound from "../../component/appNotFound/AppNotFound";
 
 const AppDetailsPage = () => {
+  const [isInstalled, setIsInstalled] = useState(false);
   const { id } = useParams();
   const data = useLoaderData();
 
   const app = data.find((a) => a.id === parseInt(id));
+  if (!app) {
+    return <AppNotFound />;
+  }
+
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  useEffect(() => {
+    const installedApps = getInstalledApps();
+    if (installedApps.includes(app.id)) {
+      setIsInstalled(true);
+    }
+  }, [app.id]);
+
+  const handleInstallButton = () => {
+    const isAdded = addInstalledApps(app.id);
+
+    if (isAdded) {
+      setIsInstalled(true);
+      Swal.fire({
+        position: "top-end",
+        icon: "success",
+        title: `${app.title} has downloaded successfully`,
+        showConfirmButton: false,
+        timer: 1500,
+        toast: true,
+      });
+    }
+  };
 
   return (
     <div className="my-10 space-y-8 w-11/12 mx-auto">
@@ -51,9 +82,21 @@ const AppDetailsPage = () => {
             </div>
           </div>
 
-          <button className="btn btn-success text-white w-full sm:w-60">
-            Install Now ({app.size})
-          </button>
+          {isInstalled ? (
+            <button
+              className="btn  w-full sm:w-60 mt-4 btn-disabled bg-gray-400 cursor-not-allowed"
+              disabled
+            >
+              Installed
+            </button>
+          ) : (
+            <button
+              className="btn btn-success text-white w-full sm:w-60 mt-4"
+              onClick={() => handleInstallButton(app.id)}
+            >
+              Install Now ({app.size})
+            </button>
+          )}
         </div>
       </div>
 

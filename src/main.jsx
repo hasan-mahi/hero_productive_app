@@ -5,9 +5,9 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import MainLayout from "./MainLayout.jsx";
 import HomePage from "./pages/HomePage/HomePage.jsx";
 import AppPage from "./pages/allAppPage/AppPage.jsx";
-import InstalledAppPage from "./pages/installedAppPage/InstalledAppPage.jsx";
 import NotFoundPage from "./pages/notfoundPage/NotFoundPage.jsx";
 import AppDetailsPage from "./pages/appDetailsPage/AppDetailsPage.jsx";
+import InstalledAppsPage from "./pages/installedAppPage/InstalledAppsPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -31,7 +31,8 @@ const router = createBrowserRouter([
       },
       {
         path: "installedApps",
-        Component: InstalledAppPage,
+        loader: () => fetch("/apps.json"),
+        Component: InstalledAppsPage,
       },
       {
         path: "*",
