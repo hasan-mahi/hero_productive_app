@@ -8,6 +8,7 @@ import AppPage from "./pages/allAppPage/AppPage.jsx";
 import NotFoundPage from "./pages/notfoundPage/NotFoundPage.jsx";
 import AppDetailsPage from "./pages/appDetailsPage/AppDetailsPage.jsx";
 import InstalledAppsPage from "./pages/installedAppPage/InstalledAppsPage.jsx";
+import PageLoader from "./component/PageLoader/PageLoader.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,21 +19,25 @@ const router = createBrowserRouter([
         index: true,
         loader: () => fetch("/apps.json"),
         Component: HomePage,
+        hydrateFallbackElement: <PageLoader/>
       },
       {
         path: "apps",
         loader: () => fetch("/apps.json"),
         Component: AppPage,
+        hydrateFallbackElement: <PageLoader/>
       },
       {
         path: "apps/:id",
         loader: () => fetch("/apps.json"),
         Component: AppDetailsPage,
+        hydrateFallbackElement: <PageLoader/>
       },
       {
         path: "installedApps",
         loader: () => fetch("/apps.json"),
         Component: InstalledAppsPage,
+        hydrateFallbackElement: <PageLoader/>
       },
       {
         path: "*",

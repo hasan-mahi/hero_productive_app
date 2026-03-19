@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData } from "react-router";
 import AppCard from "../../component/appCard/AppCard";
 
 const AppPage = () => {
+  const [searchText, setSearchText] = useState("");
   const apps = useLoaderData();
+  const [filteredApps, setFilteredApps] = useState(apps);
+
+  const handleSearch = (e) => {
+    const value = e.target.value;
+    setSearchText(value);
+
+    const filtered = apps.filter((app) =>
+      app.title.toLowerCase().includes(value.toLowerCase()),
+    );
+
+    setFilteredApps(filtered);
+  };
   return (
     <div className="my-8 w-11/12 max-w-7xl mx-auto">
       <div className="text-center">
@@ -17,7 +30,7 @@ const AppPage = () => {
 
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mt-5 gap-3">
         <h2 className="font-semibold text-sm sm:text-base">
-          ({apps.length}) Apps Found
+          ({filteredApps.length}) Apps Found
         </h2>
 
         <div className="w-full sm:w-auto">
@@ -38,15 +51,25 @@ const AppPage = () => {
                 <path d="m21 21-4.3-4.3"></path>
               </g>
             </svg>
-            <input type="search" required placeholder="Search" />
+            <input
+              type="search"
+              placeholder="Search"
+              className="grow"
+              value={searchText}
+              onChange={handleSearch}
+            />
           </label>
         </div>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
-        {apps.map((app) => (
-          <AppCard key={app.id} app={app} />
-        ))}
+        {filteredApps.length === 0 ? (
+          <p className="text-center text-gray-400 col-span-full">
+            No App Found
+          </p>
+        ) : (
+          filteredApps.map((app) => <AppCard key={app.id} app={app} />)
+        )}
       </div>
     </div>
   );

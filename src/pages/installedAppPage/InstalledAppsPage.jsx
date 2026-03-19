@@ -16,11 +16,9 @@ const InstalledAppsPage = () => {
   const getDownloadNumber = (value) => {
     if (value.includes("B")) {
       return parseFloat(value) * 1000000000;
-    }
-    if (value.includes("M")) {
+    } else if (value.includes("M")) {
       return parseFloat(value) * 1000000;
-    }
-    if (value.includes("K")) {
+    } else if (value.includes("K")) {
       return parseFloat(value) * 1000;
     }
     return parseFloat(value);
@@ -29,21 +27,21 @@ const InstalledAppsPage = () => {
   const handleSort = (type) => {
     setSortOrder(type);
 
-    let sorted = [...apps];
+    let sortedApps = [...apps];
 
     if (type === "high") {
-      sorted.sort(
+      sortedApps.sort(
         (a, b) =>
           getDownloadNumber(b.downloads) - getDownloadNumber(a.downloads),
       );
     } else if (type === "low") {
-      sorted.sort(
+      sortedApps.sort(
         (a, b) =>
           getDownloadNumber(a.downloads) - getDownloadNumber(b.downloads),
       );
     }
 
-    setApps(sorted);
+    setApps(sortedApps);
   };
 
   const handleUninstallApp = (app) => {
