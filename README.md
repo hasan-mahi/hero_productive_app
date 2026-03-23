@@ -1,12 +1,26 @@
-# React + Vite
+ Hero.io
+ Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hero.io is a modern web application that showcases a collection of trending apps with detailed insights such as downloads, ratings, and app details. Users can explore apps, view details, and install their favorite apps with a smooth and responsive user interface.
 
-Currently, two official plugins are available:
+The app also includes features like:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install apps with local storage support
+View installed apps separately
+Interactive UI with charts and ratings
+Responsive design for all devices
+ Technologies Used
+ React
+ React DOM
+ Tailwind CSS
+ DaisyUI
+ React Router
+ Recharts
+ SweetAlert2
+ React Icons
+ Features
+ Fully responsive design
+ Browse and explore apps
+ Install apps and store them locally
+ Visualize ratings with charts
+ Fast and smooth user experience
