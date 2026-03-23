@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo.png";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
@@ -67,17 +67,24 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <img src={logo} alt="logo" className="w-10" />
-          <span className="font-bold ms-1 text-purple-500">HERO.IO</span>
+          <Link to="/">
+            <div className="flex items-center">
+              <img src={logo} alt="logo" className="w-10" />
+              <span className="font-bold ms-1 text-purple-500">HERO.IO</span>
+            </div>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-purple-500 text-white hover:bg-purple-600 border-none">
+          <Link
+            className="btn bg-purple-500 text-white hover:bg-purple-600 border-none"
+            to="https://github.com/hasan-mahi"
+          >
             <FaGithub />
             Contribute
-          </a>
+          </Link>
         </div>
       </div>
     </div>

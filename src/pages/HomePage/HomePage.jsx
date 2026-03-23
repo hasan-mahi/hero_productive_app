@@ -21,15 +21,15 @@ const HomePage = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <button className="btn">
+          <Link to="https://play.google.com/" className="btn">
             <FaGooglePlay />
             Google Play
-          </button>
+          </Link>
 
-          <button className="btn">
+          <Link to="https://www.apple.com/app-store/" className="btn">
             <FaAppStoreIos />
             App Store
-          </button>
+          </Link>
         </div>
       </div>
 

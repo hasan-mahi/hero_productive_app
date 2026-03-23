@@ -4,6 +4,7 @@ import AppCard from "../../component/appCard/AppCard";
 
 const AppPage = () => {
   const [searchText, setSearchText] = useState("");
+  const [isSearching, setIsSearching] = useState(false);
   const apps = useLoaderData();
   const [filteredApps, setFilteredApps] = useState(apps);
 
@@ -11,11 +12,16 @@ const AppPage = () => {
     const value = e.target.value;
     setSearchText(value);
 
-    const filtered = apps.filter((app) =>
-      app.title.toLowerCase().includes(value.toLowerCase()),
-    );
+    setIsSearching(true);
 
-    setFilteredApps(filtered);
+    setTimeout(() => {
+      const filtered = apps.filter((app) =>
+        app.title.toLowerCase().includes(value.toLowerCase()),
+      );
+
+      setFilteredApps(filtered);
+      setIsSearching(false);
+    }, 300);
   };
   return (
     <div className="my-8 w-11/12 max-w-7xl mx-auto">
@@ -62,15 +68,21 @@ const AppPage = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
-        {filteredApps.length === 0 ? (
-          <p className="text-center text-gray-400 col-span-full">
-            No App Found
-          </p>
-        ) : (
-          filteredApps.map((app) => <AppCard key={app.id} app={app} />)
-        )}
-      </div>
+      {isSearching ? (
+        <div className="flex justify-center items-center py-10">
+          <span className="loading loading-ring loading-lg text-purple-500"></span>
+        </div>
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
+          {filteredApps.length === 0 ? (
+            <p className="text-center text-gray-400 col-span-full">
+              No App Found
+            </p>
+          ) : (
+            filteredApps.map((app) => <AppCard key={app.id} app={app} />)
+          )}
+        </div>
+      )}
     </div>
   );
 };
